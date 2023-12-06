@@ -80,8 +80,12 @@ body {
 /* bagian isi */
 .bar{
 	background: var(--secondary-color);
-	height: 90px;
+	height: 120px;
 	width: 100%;
+}
+#logo{
+	margin-top: -12px;
+	width: 140px;
 }
 .barS{
     background-color: var(--third-color);
@@ -107,14 +111,16 @@ body {
 	padding-right: 16px;
 }
 #search{
-	height: 15px;
+	height: 40px;
 	width: 280px;
 	background: transparent;
 	flex: 1;
 	border: 0;
+	margin-right: 40px;
 	margin-left: 10px;
 	outline: none;
-	font-size: 15px;
+	font-size: 20px;
+	color: var(--primary-color);
 }
 .search-form{
 	border-radius: 60px;
@@ -154,6 +160,7 @@ body {
         font-weight: bold;
 
 }
+
 .header a{
 	text-decoration: none;
 	color: #0073cf;
@@ -175,6 +182,7 @@ body {
 	padding-bottom: 6px;
 	padding-top: 10px;
 }
+
 .kotak{
     padding-top: 20px;
 
