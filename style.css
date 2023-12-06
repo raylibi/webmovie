@@ -1,0 +1,522 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+:root{
+	--primary-color: #f4f4f4;
+	--secondary-color: rgb(0, 0, 0);
+	--third-color: rgb(29, 29, 26);
+	--fourth-color: #282828;
+	--fifth-color: invert(100%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(102%) contrast(106%);
+}
+.dark-theme{
+	--primary-color: rgb(0, 0, 0);
+	--secondary-color: #f4f4f4;
+	--third-color: rgb(233, 233, 222);
+	--fourth-color: #efefef;
+	--fifth-color: invert(4%) sepia(7%) saturate(411%) hue-rotate(336deg) brightness(101%) contrast(95%);
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*  stayle  */
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: var(--secondary-color);
+        overflow-x: hidden
+        }
+.conteiner{
+        width: 1050px;
+        margin: auto;
+ }
+/* bagian isi */
+.bar{
+	background: var(--secondary-color);
+	height: 90px;
+	width: 100%;
+}
+.barS{
+    background-color: var(--third-color);
+    height: 50px;
+	width: 100%;
+}
+#icon{
+	width: 30px;
+	float: right;
+	margin-top: 12px;
+	mix-blend-mode: multiply;
+	cursor: pointer;
+}
+
+/* bagian header atas */
+.bar ul{
+	float: right;
+}
+.header img{
+    width: 150px;
+	margin-top: 30px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+#search{
+	height: 15px;
+	width: 280px;
+	background: transparent;
+	flex: 1;
+	border: 0;
+	margin-left: 10px;
+	outline: none;
+	font-size: 15px;
+}
+.search-form{
+	border-radius: 60px;
+	display: flex;
+	background: var(--fourth-color);
+	width: 100%;
+	max-width: 400px;
+	align-items: center;
+	padding: 5px 4px;
+}
+.search-form button img{
+	width: 20px;
+	margin: 0;
+	filter: var(--fifth-color);
+}
+.search-form button{
+	border: 0;
+	border-radius: 50px;
+	background: var(--fourth-color);
+	cursor: pointer;
+}
+.search-form button img:hover{
+	filter: invert(26%) sepia(94%) saturate(1445%) hue-rotate(187deg) brightness(104%) contrast(101%);
+}
+.search{
+    float: right;
+    margin-top: 30px;
+	padding-right: 16px;
+}
+.header ul li{
+	text-transform: capitalize;
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 4px;
+        margin-left: 45px;
+        font-size: large;
+        font-weight: bold;
+
+}
+.header a{
+	text-decoration: none;
+	color: #0073cf;
+	padding: 5px;
+}
+.header a:hover{
+	color: #2ab0dd;
+}
+/* bagian genre */
+.action{
+    width: 1050px;
+    margin-top: 30px;
+    padding-left: 16px;
+    color: var(--primary-color) ;
+	font-size: 25px;
+	font-weight: bold;
+	text-align:left;
+	text-transform: capitalize;
+	padding-bottom: 6px;
+	padding-top: 10px;
+}
+.kotak{
+    padding-top: 20px;
+
+}
+.bagianposteratas{
+	text-align: center;
+	height: 300px;
+}
+.poster1{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster2{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster3{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster4{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster5{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster6{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.clear{
+	clear: left;
+	
+}
+/* bagian genre */
+.Thriller{
+    width: 1050px;
+    margin-top: 30px;
+    padding-left: 16px;
+    color: var(--primary-color) ;
+	font-size: 25px;
+	font-weight: bold;
+	text-align:left;
+	text-transform: capitalize;
+	padding-bottom: 6px;
+	padding-top: 10px;
+}
+.kotak2{
+    padding-top: 20px;
+
+}
+.bagianposteratas2{
+	text-align: center;
+	height: 300px;
+}
+.poster1t{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster2t{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster3t{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster4t{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster5t{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster6t{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.clear{
+	clear: left;
+}
+/* bagian genre */
+.Romance{
+    width: 1050px;
+    margin-top: 30px;
+    padding-left: 16px;
+    color: var(--primary-color) ;
+	font-size: 25px;
+	font-weight: bold;
+	text-align:left;
+	text-transform: capitalize;
+	padding-bottom: 6px;
+	padding-top: 10px;
+}
+.kotak3{
+    padding-top: 20px;
+
+}
+.bagianposteratas3{
+	text-align: center;
+	height: 300px;
+}
+.poster1r{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster2r{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster3r{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster4r{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster5r{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster6r{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.clear{
+	clear: left;
+}
+.Comedy{
+    width: 1050px;
+    margin-top: 30px;
+    padding-left: 16px;
+    color: var(--primary-color) ;
+	font-size: 25px;
+	font-weight: bold;
+	text-align:left;
+	text-transform: capitalize;
+	padding-bottom: 6px;
+	padding-top: 10px;
+}
+.kotak4{
+    padding-top: 20px;
+
+}
+.bagianposteratas4{
+	text-align: center;
+	height: 300px;
+}
+.poster1c{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster2c{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster3c{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster4c{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster5c{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster6c{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.clear{
+	clear: left;
+}
+.Documentary{
+    width: 1050px;
+    margin-top: 30px;
+    padding-left: 16px;
+    color: var(--primary-color) ;
+	font-size: 25px;
+	font-weight: bold;
+	text-align:left;
+	text-transform: capitalize;
+	padding-bottom: 6px;
+	padding-top: 10px;
+}
+.kotak5{
+    padding-top: 20px;
+
+}
+.bagianposteratas5{
+	text-align: center;
+	height: 300px;
+}
+.poster1d{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster2d{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster3d{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster4d{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster5d{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster6d{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.clear{
+	clear: left;
+}
+.Anime{
+    width: 1050px;
+    margin-top: 30px;
+    padding-left: 16px;
+    color: var(--primary-color) ;
+	font-size: 25px;
+	font-weight: bold;
+	text-align:left;
+	text-transform: capitalize;
+	padding-bottom: 6px;
+	padding-top: 10px;
+}
+.kotak6{
+    padding-top: 20px;
+
+}
+.bagianposteratas6{
+	text-align: center;
+	height: 300px;
+}
+.poster1a{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster2a{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster3a{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster4a{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster5a{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.poster6a{
+    width: 250px;
+	height: 90PX;
+	float: left;
+	text-align: center;
+}
+.clear{
+	clear: left;
+}
