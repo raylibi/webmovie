@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 *{
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 
 :root{
@@ -73,9 +74,14 @@ body {
         background-color: var(--secondary-color);
         overflow-x: hidden
         }
-.conteiner{
-        width: 1050px;
-        margin: auto;
+.flex-container{
+        display: flex;
+        flex-wrap: wrap;
+		flex-grow: 1;
+		flex-basis: 200;
+		gap: 8px;
+		justify-content: center;
+		align-items: center;
  }
 /* bagian isi */
 .bar{
@@ -192,40 +198,70 @@ body {
 	height: 300px;
 }
 .poster1{
-    width: 250px;
+	width: 250px;
 	height: 90PX;
+	flex: 1 0 140px;
+	flex-wrap: wrap;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster2{
-    width: 250px;
+	width: 250px;
 	height: 90PX;
+	flex: 1 0 140px;
+	flex-wrap: wrap;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster3{
-    width: 250px;
+	width: 250px;
 	height: 90PX;
+	flex: 1 0 140px;
+	flex-wrap: wrap;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster4{
-    width: 250px;
+	width: 250px;
 	height: 90PX;
+	flex: 1 0 140px;
+	flex-wrap: wrap;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster5{
-    width: 250px;
+	width: 250px;
 	height: 90PX;
+	flex: 1 0 140px;
+	flex-wrap: wrap;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster6{
-    width: 250px;
+	width: 250px;
 	height: 90PX;
+	flex: 1 0 140px;
+	flex-wrap: wrap;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .clear{
 	clear: left;
@@ -257,36 +293,54 @@ body {
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster2t{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster3t{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster4t{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster5t{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster6t{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .clear{
 	clear: left;
@@ -317,36 +371,54 @@ body {
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster2r{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster3r{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster4r{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster5r{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster6r{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .clear{
 	clear: left;
@@ -376,36 +448,54 @@ body {
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster2c{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster3c{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster4c{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster5c{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster6c{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .clear{
 	clear: left;
@@ -435,36 +525,54 @@ body {
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster2d{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster3d{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster4d{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster5d{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster6d{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .clear{
 	clear: left;
@@ -494,36 +602,54 @@ body {
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster2a{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster3a{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster4a{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster5a{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .poster6a{
     width: 250px;
 	height: 90PX;
 	float: left;
 	text-align: center;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: bold;
 }
 .clear{
 	clear: left;
